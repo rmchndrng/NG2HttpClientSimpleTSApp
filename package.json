@@ -1,0 +1,33 @@
+{
+  "name": "ng2httpclientsimpletsapp",
+  "version": "1.0.0",
+  "description": "A simple typescript application which makes use of the Http client library provided by Angular2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmchndrng/NG2HttpClientSimpleTSApp.git"
+  },
+  "keywords": [
+    "Angular2",
+    "@angular/http",
+    "http-client",
+    "typescript",
+    "\"non",
+    "angular",
+    "app\""
+  ],
+  "author": "rmchndrng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmchndrng/NG2HttpClientSimpleTSApp/issues"
+  },
+  "homepage": "https://github.com/rmchndrng/NG2HttpClientSimpleTSApp#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.10"
+  }
+}
