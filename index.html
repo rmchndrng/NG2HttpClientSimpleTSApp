@@ -1,12 +1,13 @@
 <html>
-<head>    
-    <script src="./node_modules/zone.js/dist/zone.js"></script>
-    <script src="./node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="./node_modules/@angular/core/bundles/core.umd.js"></script>
-    <script src="./node_modules/@angular/common/bundles/common.umd.js"></script>
-    <script src="./node_modules/@angular/platform-browser/bundles/platform-browser.umd.js"></script>
-    <script src="./node_modules/@angular/http/bundles/http.umd.js"></script>    
-    <script src="./dist/app.js"></script>
+<head>
+    <script src="./node_modules/systemjs/dist/system.js"></script>    
+    <script src="./dist/system.config.js"></script>        
     <body>
+        <div>            
+            Username:<input type="text" id="username"></input> 
+            <a href="javascript:;" onClick="app.buttonClick();">Search</a>            
+        </div>
+        <div id="results">
+        </div>
     </body>
 </html>
